@@ -1,7 +1,7 @@
 <template>
   <div class='content'>
     <h2 id='why-procyon'>
-      <span v-html='$t("MSG_WHY_PROCYON")' />
+      <span v-html='$t("MSG_WHY_DEMO")' />
     </h2>
     <div class='columns-2'>
       <div class='column-2'>

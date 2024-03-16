@@ -132,7 +132,7 @@
             <li>(2)セキュリティページ下部の「ログイン履歴」をご確認ください。</li>
           </ul>
 
-          <p>不明のログインを検知した場合には、<a href='mailto:support@procyon.vip'>support@procyon.vip</a>へご連絡ください。</p>
+          <p>不明のログインを検知した場合には、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>へご連絡ください。</p>
 
           <h3 id='招待コードとはなんですか？'>
             招待コードとはなんですか？
@@ -153,7 +153,7 @@
             <li>(2)以下、件名および送信元アドレスでメールボックス内の検索をおこなう</li>
             <ul>
               <li><strong>件名：</strong>【Procyon】Email認証コード</li>
-              <li><strong>送信元メール：</strong>support@procyon.vip</li>
+              <li><strong>送信元メール：</strong>support@cryptomore.io</li>
             </ul>
           </ul>
           <div class='hr' />

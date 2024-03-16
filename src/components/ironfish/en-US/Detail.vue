@@ -38,7 +38,7 @@
         </tbody>
       </table>
       <p class='info-table-note'>
-        *Withdrawals of mining rewards will be available from April 10th at the latest, giving us time to implement the Iron Fish blockchain on the Procyon.vip platform. You can refund any time BEFORE this date.
+        *Withdrawals of mining rewards will be available from April 10th at the latest, giving us time to implement the Iron Fish blockchain on the www.hashrate-demo.npool.top platform. You can refund any time BEFORE this date.
       </p>
     </div>
 
@@ -52,7 +52,7 @@
 
     <h4>NOTE:</h4>
 
-    <p>While Ironfish does have technology that competes with Procyon’s other offering of Aleo, we are very bullish about zero knowledge for Web3. Thus, we want to bring a diverse portfolio of products to our community. The expectation is for zero knowledge to be a major part of blockchain projects from now into the future.</p>
+    <p>While Ironfish does have technology that competes with HashRate Demo’s other offering of Aleo, we are very bullish about zero knowledge for Web3. Thus, we want to bring a diverse portfolio of products to our community. The expectation is for zero knowledge to be a major part of blockchain projects from now into the future.</p>
 
     <p>The core difference between Aleo and Iron Fish it that Aleo has programmability for applications, NFTs, games, and more from the start of its mainnet. However, Iron Fish will use a Layer 2, the Ethereum Virtual Machine, for future programmability.</p>
 
@@ -263,7 +263,7 @@
 
     <h3>Risk warning and disclaimer: cryptocurrencies involve risk.</h3>
 
-    <h4>First of all, Procyon and its team will make best efforts for its users.</h4>
+    <h4>First of all, HashRate Demo and its team will make best efforts for its users.</h4>
 
     <p>That said, as a general rule, one should only select products that they are familiar with and understand the risk associated with them. Value of such products may fluctuate due to a variety of factors, such as changes in government policies, economic conditions, or market trends. Further, such products are subject to the applicable laws and regulations of the relevant overseas jurisdiction in which these products are held. Lastly, if one undertakes transactions on an online platform, they may be exposed to risks associated with the system including the unpredictable failure of hardware and software due to circumstances outside of our control.</p>
   </div>

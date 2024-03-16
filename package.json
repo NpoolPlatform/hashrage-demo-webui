@@ -1,8 +1,8 @@
 {
-  "name": "procyon-webui",
+  "name": "hashrate-demo-webui",
   "version": "0.1.677",
   "description": "vue3 framework use quasar ui and pinia manage store",
-  "productName": "Procyon",
+  "productName": "HashrateDemo",
   "author": "Entropy Pool Team <kikakkz@hotmail.com>",
   "private": true,
   "scripts": {

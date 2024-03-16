@@ -79,8 +79,8 @@
               <li><a href='https://apps.apple.com/jp/app/google-authenticator/id388497605' target='_blank'>For iOS (iPhone)</a></li>
               <li><a href='https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=ja&gl=US' target='_blank'>For Android</a></li>
             </ul>
-            <li>(4) Click [Next Step] on Procyon.vip.</li>
-            <li>(5) Enter the authentication code from Google Authenticator on Procyon.vip to complete the two-factor setup.</li>
+            <li>(4) Click [Next Step] on www.hashrate-demo.npool.top.</li>
+            <li>(5) Enter the authentication code from Google Authenticator on www.hashrate-demo.npool.top to complete the two-factor setup.</li>
           </ul>
 
           <h3 id='Login using Google Authenticator'>

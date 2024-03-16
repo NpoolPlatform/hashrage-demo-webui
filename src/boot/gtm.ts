@@ -7,7 +7,7 @@ export default boot(({ app, router }) => {
   app.use(
     VueGtag,
     {
-      appName: 'Procyon',
+      appName: 'HashRate Demo',
       pageTrackerScreenviewEnabled: true,
       config: {
         id: 'G-WMDW59ENZM'

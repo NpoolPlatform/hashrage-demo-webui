@@ -1,7 +1,7 @@
 <template>
   <BackPage>
     <div class='content'>
-      <h2>{{ $t('MSG_CONTACT_SUPPORT') }}</h2>
+      <h2>{{ $t('MSG_DEMO_CONTACT_SUPPORT') }}</h2>
     </div>
     <div class='content contact-page'>
       <div class='form-container content-glass'>
@@ -39,16 +39,13 @@
         </form>
       </div>
       <div class='form-container content-glass'>
-        <h3 class='form-title'>
-          {{ $t('MSG_CONTACT_VIA_LINE') }}
-        </h3>
-        <p class='qr-code-text' v-html='$t("MSG_CONTACT_VIA_LINE_1")' />
+        <p class='qr-code-text' v-html='$t("MSG_DEMO_CONTACT_VIA_LINE_1")' />
         <div class='qr-code-container'>
           <img :src='lineQr'>
         </div>
         <p class='qr-code-text' v-html='$t("MSG_CONTACT_VIA_LINE_2")' />
         <h4 id='signature'>
-          {{ $t('MSG_CONTACT_SIGNATURE') }}
+          {{ $t('MSG_DEMO_CONTACT_SIGNATURE') }}
         </h4>
       </div>
     </div>
@@ -60,7 +57,7 @@ import { defineAsyncComponent, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { contact, basetypes, notify } from 'src/npoolstore'
 
-import lineQr from '../../assets/line-qr.png'
+import lineQr from '../../assets/demo-qr.png'
 
 const BackPage = defineAsyncComponent(() => import('src/components/page/BackPage.vue'))
 

@@ -204,9 +204,9 @@
       </table>
     </div>
 
-    <h3>Procyon’s Project Selection</h3>
+    <h3>HashRate Demo’s Project Selection</h3>
 
-    <p>Procyon selects projects for a number of reasons, so here are a few of the most important:</p>
+    <p>HashRate Demo selects projects for a number of reasons, so here are a few of the most important:</p>
 
     <div class='info-table-container table-2-columns'>
       <table class='info-table'>
@@ -255,7 +255,7 @@
 
     <h3>First Batch Mining and its Advantages</h3>
 
-    <p>In addition to filtering for great projects, Procyon selects for early opportunities to generate the best value for our users. Therefore, we prioritize first batch mining:</p>
+    <p>In addition to filtering for great projects, HashRate Demo selects for early opportunities to generate the best value for our users. Therefore, we prioritize first batch mining:</p>
 
     <ul>
       <li>Timing is important: mining is most profitable from the first day of mainnet launch.</li>
@@ -265,7 +265,7 @@
 
     <h3>Risk warning and disclaimer: cryptocurrencies involve risk.</h3>
 
-    <h4>First of all, Procyon and its team will make best efforts for its users.</h4>
+    <h4>First of all, HashRate Demo and its team will make best efforts for its users.</h4>
 
     <p>That said, as a general rule, one should only select products that they are familiar with and understand the risk associated with them. Value of such products may fluctuate due to a variety of factors, such as changes in government policies, economic conditions, or market trends. Further, such products are subject to the applicable laws and regulations of the relevant overseas jurisdiction in which these products are held. Lastly, if one undertakes transactions on an online platform, they may be exposed to risks associated with the system including the unpredictable failure of hardware and software due to circumstances outside of our control.</p>
   </div>

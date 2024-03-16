@@ -53,17 +53,17 @@
 
     <h3>Aleo GOLD - Earn Aleo tokens before the mainnet launches!</h3>
 
-    <p>Aleo’s Prover Incentive program is over, which means Procyon users can now buy Aleo Gold</p>
+    <p>Aleo’s Prover Incentive program is over, which means HashRate Demo users can now buy Aleo Gold</p>
 
     <p><strong>Aleo still has 17.5 million testnet credits that need to be distributed</strong>. We expect the next incentive program to be announced for testnet verifiers: stay tuned for updates!</p>
 
-    <p>Procyon’s Aleo Platinum earned early rewards for early buyers. <strong>If you haven’t yet bought this first-batch mining, don’t miss this next chance!</strong></p>
+    <p>HashRate Demo’s Aleo Platinum earned early rewards for early buyers. <strong>If you haven’t yet bought this first-batch mining, don’t miss this next chance!</strong></p>
 
     <p>These testnet incentives are eligible for partial conversion to mainnet Aleo tokens, and our partner Hpool continues to participate for all of our Aleo buyers.</p>
 
-    <h3>Procyon’s Project Selection</h3>
+    <h3>HashRate Demo’s Project Selection</h3>
 
-    <p>Procyon selects projects for a number of reasons, so here are a few of the most important:</p>
+    <p>HashRate Demo selects projects for a number of reasons, so here are a few of the most important:</p>
 
     <div class='info-table-container table-2-columns'>
       <table class='info-table'>
@@ -340,7 +340,7 @@
 
     <h3>Risk warning and disclaimer: cryptocurrencies involve risk.</h3>
 
-    <p>First of all, Procyon and its team will make best efforts for its users.</p>
+    <p>First of all, HashRate Demo and its team will make best efforts for its users.</p>
 
     <p>That said, as a general rule, one should only select products that they are familiar with and understand the risk associated with them. Value of such products may fluctuate due to a variety of factors, such as changes in government policies, economic conditions, or market trends. Further, such products are subject to the applicable laws and regulations of the relevant overseas jurisdiction in which these products are held. Lastly, if one undertakes transactions on an online platform, they may be exposed to risks associated with the system including the unpredictable failure of hardware and software due to circumstances outside of our control.</p>
   </div>

@@ -94,7 +94,6 @@ module.exports = configure(function (ctx) {
       proxy: {
         '/api': {
           target: 'https://api.npool.top:20402',
-          // target: 'https://api.procyon.vip',
           pathRewrite: {
             '^/api': '/api'
           },
@@ -166,8 +165,8 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'procyon webui',
-        short_name: 'procyon webui',
+        name: 'hashrate demo webui',
+        short_name: 'hashrate demo webui',
         description: 'vue3 framework use quasar ui and pinia manage store',
         display: 'standalone',
         orientation: 'portrait',
@@ -233,7 +232,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'procyon-webui'
+        appId: 'hashrate-demo-webui'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

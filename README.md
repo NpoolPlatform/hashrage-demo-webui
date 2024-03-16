@@ -1,6 +1,6 @@
-<a href="https://github.com/NpoolPlatform/procyon-webui/actions/workflows/ci.yml"><img src="https://github.com/NpoolPlatform/procyon-webui/workflows/test/badge.svg" alt="build status"></a>
+<a href="https://github.com/NpoolPlatform/demo-webui/actions/workflows/ci.yml"><img src="https://github.com/NpoolPlatform/demo-webui/workflows/test/badge.svg" alt="build status"></a>
 
-# procyon webui (procyon-webui)
+#  hashrate demo webui
 
 vue3 framework use quasar ui and pinia manage store
 

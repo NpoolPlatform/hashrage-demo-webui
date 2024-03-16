@@ -2,9 +2,9 @@
   <div class='content faq' id='support'>
     <div id='hero'>
       <h1>
-        <span v-html='$t("MSG_SUPPORT_CENTER")' />
+        <span v-if='false' v-html='$t("MSG_SUPPORT_CENTER")' />
       </h1>
-      <div id='search-box'>
+      <div v-if='false' id='search-box'>
         <form action='javascript: void(0)'>
           <input id='search-field' type='text' @click='onSearchClick'>
           <input id='search-button' type='submit' value='Search'>
@@ -12,10 +12,10 @@
       </div>
     </div>
 
-    <h2>
+    <h2 v-if='false'>
       <span v-html='$t("MSG_PROCYON_PLATFORM")' />
     </h2>
-    <div class='faq-menu-cointainer'>
+    <div v-if='false' class='faq-menu-cointainer'>
       <a v-for='faq in faqs' :key='faq.topic' class='faq-menu-item' @click='onItemClick(faq)'>
         <img :src='faq.icon'>
         <div class='faq-menu-item-info'>
@@ -31,21 +31,21 @@
         <img class='faq-product' src='font-awesome/product-aleo.svg'>
         <div class='faq-menu-item-info'>
           <h2>{{ $t('MSG_ALEO_FAQ_MENU_TITLE') }}</h2>
-          <span>{{ $t('MSG_ALEO_FAQ_MENU_SUBTITLE') }}</span>
+          <span>{{ $t('MSG_DEMO_ALEO_FAQ_MENU_SUBTITLE') }}</span>
         </div>
       </a>
       <a class='faq-menu-item' @click='onIronFishClick'>
         <img class='faq-product' src='product/iron/product-iron-fish.svg'>
         <div class='faq-menu-item-info'>
           <h2>{{ $t('MSG_IRON_FISH_FAQ_MENU_TITLE') }}</h2>
-          <span>{{ $t('MSG_IRON_FISH_FAQ_MENU_SUBTITLE') }}</span>
+          <span>{{ $t('MSG_DEMO_IRON_FISH_FAQ_MENU_SUBTITLE') }}</span>
         </div>
       </a>
       <a class='faq-menu-item' @click='onSpacemeshClick'>
         <img class='faq-product' src='product/spacemesh/product-spacemesh.svg'>
         <div class='faq-menu-item-info'>
           <h2>{{ $t('MSG_SPACEMESH_FAQ_MENU_TITLE') }}</h2>
-          <span>{{ $t('MSG_SPACEMESH_FAQ_MENU_SUBTITLE') }}</span>
+          <span>{{ $t('MSG_DEMO_SPACEMESH_FAQ_MENU_SUBTITLE') }}</span>
         </div>
       </a>
     </div>

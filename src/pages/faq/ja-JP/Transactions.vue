@@ -23,7 +23,7 @@
             <li><a @click='scrollTo("マイニング報酬を日本円に換金はできないのですか？")'>マイニング報酬を日本円に換金はできないのですか？</a></li>
             <li><a @click='scrollTo("マイニング報酬は、どのタイミングで外部ウォレットに出金すればいいんですか？")'>マイニング報酬は、どのタイミングで外部ウォレットに出金すればいいんですか？</a></li>
             <li><a @click='scrollTo("出金して何をすればいいのですか？")'>出金して何をすればいいのですか？</a></li>
-            <li><a @click='scrollTo("Procyon.vipのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？")'>Procyon.vipのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？</a></li>
+            <li><a @click='scrollTo("www.hashrate-demo.npool.topのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？")'>www.hashrate-demo.npool.topのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？</a></li>
           </ul>
 
           <div class='hr' />
@@ -196,7 +196,7 @@
             Procyonウォレットから出金した際の、トランザクションIDの確認方法を教えてください
           </h3>
 
-          <p>お手数ではございますが、<a href='mailto:support@procyon.vip'>support@procyon.vip</a>まで以下情報とともにご連絡をお願いいたします。</p>
+          <p>お手数ではございますが、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
 
           <h4>▼必要情報</h4>
 
@@ -210,7 +210,7 @@
             Procyonウォレットへ入金しましたが指定のウォレットに届きません
           </h3>
 
-          <p>お手数ではございますが、<a href='mailto:support@procyon.vip'>support@procyon.vip</a>まで以下情報とともにご連絡をお願いいたします。</p>
+          <p>お手数ではございますが、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
 
           <h4>▼必要情報</h4>
 
@@ -224,7 +224,7 @@
             出金しましたが指定のウォレットに届きません
           </h3>
 
-          <p>お手数ではございますが、<a href='mailto:support@procyon.vip'>support@procyon.vip</a>まで以下情報とともにご連絡をお願いいたします。</p>
+          <p>お手数ではございますが、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
 
           <h4>▼必要情報</h4>
 
@@ -255,11 +255,11 @@
 
           <p>外部ウォレットへ送金して送金先のウォレットに着金が確認されましたら手続きは完了です。その後のお取引に関しましては、お客様ご自身にて決定ください。</p>
 
-          <h3 id='Procyon.vipのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？'>
-            Procyon.vipのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？
+          <h3 id='www.hashrate-demo.npool.topのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？'>
+            www.hashrate-demo.npool.topのウェブサイトが落ちた際、出金申請中だったのですが出金完了されますか？
           </h3>
 
-          <p>お手数ではございますが、調査実施のため<a href='mailto:support@procyon.vip'>support@procyon.vip</a>まで以下情報とともにご連絡をお願いいたします。</p>
+          <p>お手数ではございますが、調査実施のため<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
 
           <h4>▼必要情報</h4>
 

@@ -1,11 +1,11 @@
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: procyon-webui-v2-ingress
+  name: hashrate-demo-webui-ingress
   namespace: kube-system
   annotations:
-    k8s.kuboard.cn/displayName: procyon-webui-v2
-    k8s.kuboard.cn/workload: procyon-webui-v2
+    k8s.kuboard.cn/displayName: hashrate-demo-webui
+    k8s.kuboard.cn/workload: hashrate-demo-webui
     kubernetes.io/ingress.class: "traefik-internet"
     traefik.ingress.kubernetes.io/router.entrypoints: websecure, web
     traefik.ingress.kubernetes.io/router.middlewares:
@@ -16,21 +16,21 @@ metadata:
 spec:
   tls:
     - hosts:
-        - '*.procyon.vip'
-        - procyon.vip
+        - '*.www.hashrate-demo.npool.top'
+        - www.hashrate-demo.npool.top
       secretName: procyon-vip-tls
   rules:
-    - host: www.procyon.vip
+    - host: www.hashrate-demo.npool.top
       http:
         paths:
           - path: /
             backend:
-              serviceName: procyon-webui-v2
+              serviceName: hashrate-demo-webui
               servicePort: 80
-    - host: procyon.vip
+    - host: www.hashrate-demo.npool.top
       http:
         paths:
           - path: /
             backend:
-              serviceName: procyon-webui-v2
+              serviceName: hashrate-demo-webui
               servicePort: 80

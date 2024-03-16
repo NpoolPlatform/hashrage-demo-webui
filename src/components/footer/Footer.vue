@@ -20,13 +20,13 @@
           <ul>
             <li><a class='footer-link' target='_blank' @click='router.push({ path: "/" })'>{{ $t('MSG_HOME') }}</a></li>
             <li><a class='footer-link' target='_blank' @click='router.push({ path: "/", hash: "#products" })'>{{ $t('MSG_PRODUCTS') }}</a></li>
-            <li><a class='footer-link' target='_blank' href='https://procyon-vip.medium.com/'>{{ $t('MSG_BLOG') }}</a></li>
+            <li><a v-if='false' class='footer-link' target='_blank' href='https://procyon-vip.medium.com/'>{{ $t('MSG_BLOG') }}</a></li>
           </ul>
         </div>
         <div class='column-4'>
           <h4>{{ $t('MSG_HELP') }}</h4>
           <ul>
-            <li><a class='footer-link' target='_blank' @click='router.push({ path: "/company" })'>{{ $t('MSG_COMPANY_INFO') }}</a></li>
+            <li><a v-if='false' class='footer-link' target='_blank' @click='router.push({ path: "/company" })'>{{ $t('MSG_COMPANY_INFO') }}</a></li>
             <li><a class='footer-link' target='_blank' @click='router.push({ path: "/", hash: "#support" })'>{{ $t('MSG_FAQ') }}</a></li>
             <li><a class='footer-link' target='_blank' @click='router.push({ path: "/contact" })'>{{ $t('MSG_CONTACT') }}</a></li>
             <li><a class='footer-link' target='_blank' @click='router.push({ path: "/legal" })'>{{ $t('MSG_LEGAL') }}</a></li>
@@ -34,7 +34,7 @@
         </div>
       </div>
       <p class='copyright'>
-        © 2021-{{ new Date().getFullYear() }} {{ $t('MSG_ORGANIZATION') }}
+        © 2021-{{ new Date().getFullYear() }} {{ $t('MSG_DEMO_ORGANIZATION') }}
       </p>
     </div>
   </footer>
@@ -45,7 +45,7 @@ import { computed, defineAsyncComponent } from 'vue'
 import { useRouter } from 'vue-router'
 import { _locale } from 'src/npoolstore'
 
-import lightLogo from '../../assets/procyon-light.svg'
+import lightLogo from '../../assets/demo-light.svg'
 const LangSwitcher = defineAsyncComponent(() => import('src/components/lang/LangSwitcher.vue'))
 
 const locale = _locale.useLocaleStore()

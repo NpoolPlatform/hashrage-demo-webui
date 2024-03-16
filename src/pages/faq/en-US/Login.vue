@@ -57,7 +57,7 @@
             />
           </div>
 
-          <p><strong>Users are asked to change their password when first loggin in to Procyon.vip.</strong> From the second time, you will be able to login normally.</p>
+          <p><strong>Users are asked to change their password when first loggin in to www.hashrate-demo.npool.top.</strong> From the second time, you will be able to login normally.</p>
 
           <h4>Reset Your Password</h4>
           <ul>
@@ -123,7 +123,7 @@
             <li>(2) Scroll down and confirm your <strong>[Login History]</strong> at the bottom of the page.</li>
           </ul>
 
-          <p>If an unknown login is detected, please contact <a href='mailto:support@procyon.vip'>support@procyon.vip</a></p>
+          <p>If an unknown login is detected, please contact <a href='mailto:support@cryptomore.io'>support@cryptomore.io</a></p>
 
           <h3 id='What is an invitation code?'>
             What is an invitation code?
@@ -144,7 +144,7 @@
             <li>(2) Search your inbox using the following subject and address:</li>
             <ul>
               <li><strong>Subject:</strong>【Procyon】Email認証コード</li>
-              <li><strong>Email Address: </strong>support@procyon.vip</li>
+              <li><strong>Email Address: </strong>support@cryptomore.io</li>
             </ul>
           </ul>
           <div class='hr' />
