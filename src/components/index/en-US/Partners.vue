@@ -1,5 +1,5 @@
 <template>
-  <div class='content'>
+  <div v-if='false' class='content'>
     <h1>
       Who are HashRate Demo's Partners?
     </h1>

@@ -69,7 +69,7 @@ export default {
   MSG_SECURITY_FAQ_MENU_SUBTITLE: 'www.hashrate-demo.npool.topのセキュリティポリシーに関する詳細を確認',
   MSG_GENERAL_FAQ_MENU_TITLE: '総合案内',
   MSG_GENERAL_FAQ_MENU_SUBTITLE: 'その他www.hashrate-demo.npool.topに関する一般的な情報を確認',
-  MSG_PROCYON_PRODUCTS: 'Procyon 製品一覧',
+  MSG_DEMO_PRODUCTS: 'Procyon 製品一覧',
   MSG_SPACEMESH_FAQ_MENU_TITLE: 'Spacemesh概要',
   MSG_DEMO_SPACEMESH_FAQ_MENU_SUBTITLE: 'Demo のSpacemeshマイニング詳細はこちら',
   MSG_CANT_FIND_LOOKING_FOR: 'お求めの解答が見つからない場合',

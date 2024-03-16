@@ -1,5 +1,5 @@
 <template>
-  <div class='content'>
+  <div v-if='false' class='content'>
     <h1>
       プロシオンのパートナー
     </h1>

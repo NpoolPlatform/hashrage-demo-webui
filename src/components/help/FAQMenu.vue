@@ -25,7 +25,7 @@
       </a>
     </div>
 
-    <h2>{{ $t('MSG_PROCYON_PRODUCTS') }}</h2>
+    <h2>{{ $t('MSG_DEMO_PRODUCTS') }}</h2>
     <div class='faq-menu-cointainer'>
       <a class='faq-menu-item' @click='onAleoClick'>
         <img class='faq-product' src='font-awesome/product-aleo.svg'>

@@ -12,7 +12,7 @@
           {{ $t('MSG_GOOGLE_SECRET') }}: {{ googleSecret }}
         </div>
         <q-separator />
-        <p v-html='$t("MSG_GOOGLE_AUTHENTICATOR_TIP")' />
+        <p v-html='$t("MSG_DEMO_GOOGLE_AUTHENTICATOR_TIP")' />
         <q-separator />
         <div class='row'>
           <q-space />

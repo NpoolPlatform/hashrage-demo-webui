@@ -6,7 +6,7 @@
         <li><a class='nav-link' target='_blank' @click='router.push({ path: "/" })'>{{ $t('MSG_HOME') }}</a></li>
         <li><a v-if='false' class='nav-link' target='_blank' href='https://procyon-vip.medium.com'>{{ $t('MSG_BLOG') }}</a></li>
         <li><a class='nav-link' target='_blank' @click='router.push({ path: "/", hash: "#support" })'>{{ $t('MSG_SUPPORT_AND_FAQ') }}</a></li>
-        <li><a class='nav-link' target='_blank' @click='router.push({ path: "/", hash: "#partners" })'>{{ $t('MSG_PARTNERS') }}</a></li>
+        <li><a v-if='false' class='nav-link' target='_blank' @click='router.push({ path: "/", hash: "#partners" })'>{{ $t('MSG_PARTNERS') }}</a></li>
         <li><a class='nav-link' target='_blank' @click='router.push({ path: "/contact" })'>{{ $t('MSG_CONTACT') }}</a></li>
         <LangSwitcher />
         <li id='notifications' v-if='localUser.logined'>
@@ -130,7 +130,7 @@ import { getNotifs, onMarkAll } from 'src/api/notif'
 import { notify, user, notif, _locale, localapp } from 'src/npoolstore'
 
 import lightLogo from '../../assets/demo-light.svg'
-import logo from '../../assets/procyon-logo.svg'
+import logo from '../../assets/demo-logo.svg'
 import userAvatar from '../../assets/icon-user.svg'
 
 const LangSwitcher = defineAsyncComponent(() => import('src/components/lang/LangSwitcher.vue'))

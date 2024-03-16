@@ -25,7 +25,7 @@
 import { defineAsyncComponent, watch, ref, Component, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { app, notify } from 'src/npoolstore'
-import lightLogo from 'src/assets/procyon-light.svg'
+import lightLogo from 'src/assets/demo-light.svg'
 import { useRouter } from 'vue-router'
 
 // eslint-disable-next-line @typescript-eslint/unbound-method

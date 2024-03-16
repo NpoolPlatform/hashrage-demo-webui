@@ -25,7 +25,7 @@
         <button class='in-active' disabled>
           {{ $t('MSG_COMING_SOON') }}
         </button>
-      </div>
+      </div>P
       <div class='column-2'>
         <div class='highlight-image'>
           <img src='product/academy/procyon-academy-homepage.png'>
