@@ -16,9 +16,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - '*.npool.top'
+        - '*.hashrate-demo.npool.top'
         - www.hashrate-demo.npool.top
-      secretName: npool-top-tls
+      secretName: hashrate-demo-npool-top-tls
   rules:
     - host: www.hashrate-demo.npool.top
       http:
