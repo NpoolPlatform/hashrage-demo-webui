@@ -23,7 +23,7 @@
         />
         <div class='warning waring-gap'>
           <img src='font-awesome/warning.svg'>
-          <span v-html='$t("MSG_WITHDRAW_ADDRESS_WARNING")' />
+          <span v-html='$t("MSG_DEMO_WITHDRAW_ADDRESS_WARNING")' />
         </div>
         <div v-show='needMemo'>
           <Input

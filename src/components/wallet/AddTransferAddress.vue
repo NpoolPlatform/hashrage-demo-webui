@@ -4,19 +4,19 @@
       <template #form-body>
         <Input
           v-model:value='address'
-          label='MSG_PROCYON_ACCOUNT_ID'
+          label='MSG_DEMO_ACCOUNT_ID'
           type='text'
           id='address'
           required
           :error='addressError'
           message='MSG_TRANSFER_ADDRESS_TIP'
-          placeholder='MSG_PROCYON_ACCOUNT_ID_PLACEHOLDER'
+          placeholder='MSG_DEMO_ACCOUNT_ID_PLACEHOLDER'
           @focus='onAddressFocusIn'
           @blur='onAddressFocusOut'
         />
         <div class='warning waring-gap'>
           <img src='font-awesome/warning.svg'>
-          <span v-html='$t("MSG_INTERNAL_TRANSFER_WARNING")' />
+          <span v-html='$t("MSG_DEMO_INTERNAL_TRANSFER_WARNING")' />
         </div>
         <Input
           v-if='false'

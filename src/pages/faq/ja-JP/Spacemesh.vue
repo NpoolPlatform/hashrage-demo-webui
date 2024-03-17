@@ -11,7 +11,7 @@
             <li><a @click='scrollTo("Spacemeshマイニング製品")'>Spacemeshマイニング製品</a></li>
             <li><a @click='scrollTo("Spacemeshとは")'>Spacemeshとは</a></li>
             <li><a @click='scrollTo("Spacemeshの技術概要 (DAG構造)")'>Spacemeshの技術概要 (DAG構造)</a></li>
-            <li><a @click='scrollTo("なぜProcyonはSpacemeshを選定したか？")'>なぜProcyonはSpacemeshを選定したか？</a></li>
+            <li><a @click='scrollTo("なぜHashRate DemoはSpacemeshを選定したか？")'>なぜHashRate DemoはSpacemeshを選定したか？</a></li>
           </ul>
 
           <div class='hr' />
@@ -24,7 +24,7 @@
 
           <h4>Product Detail</h4>
 
-          <p><strong>製品詳細：</strong>Spacemeshのプロジェクトチームによる正式決定・発表時。最新情報に関しましては、毎週日曜日に開催されるProcyon公式セミナーにご参加ください。</p>
+          <p><strong>製品詳細：</strong>Spacemeshのプロジェクトチームによる正式決定・発表時。最新情報に関しましては、毎週日曜日に開催されるHashRate Demo公式セミナーにご参加ください。</p>
 
           <p><strong>マイニング期間：</strong>365日間 (メインネットでローンチ後)</p>
 
@@ -68,8 +68,8 @@
 
           <p>Spacemesh は、Proof of Space Time（PoST）プロトコルを用いたブロックメッシュ構造をベースとした分散型プラットフォームです。従来のブロックチェーンのようにブロックが一つずつ鎖状に連なるのではなく複数の方向に連なりメッシュ構造を構築します。分散型台帳技術におけるブロックチェーンの抱える課題を解決する代替手段として注目されている DAG(Directed Acyclic Graph)の構造の一つであり、世界で最も分散的で公正な暗号通貨ネットワークです。</p>
 
-          <h3 id='なぜProcyonはSpacemeshを選定したか？'>
-            なぜProcyonはSpacemeshを選定したか？
+          <h3 id='なぜHashRate DemoはSpacemeshを選定したか？'>
+            なぜHashRate DemoはSpacemeshを選定したか？
           </h3>
 
           <p>ベンチャーキャピタルからの投資サポートという点では、よく似た2つのプロジェクトということにも構わず、Spacemeshの方がChiaよりも豪華なベンチャーキャピタルが揃っています。</p>

@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon Platform - General Info</h2>
+      <h2>HashRate Demo Platform - General Info</h2>
 
       <div class='faq-content'>
         <div class='faq-content-nav'>
