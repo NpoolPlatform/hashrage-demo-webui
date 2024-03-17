@@ -1,6 +1,6 @@
 {
   "name": "hashrate-demo-webui",
-  "version": "0.1.677",
+  "version": "0.1.1",
   "description": "vue3 framework use quasar ui and pinia manage store",
   "productName": "HashrateDemo",
   "author": "Entropy Pool Team <kikakkz@hotmail.com>",
