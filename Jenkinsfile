@@ -15,32 +15,6 @@ pipeline {
       steps {
         sh(returnStdout: false, script: '''
           set +e
-          revlist=`git rev-list --tags --max-count=1`
-          rc=$?
-          set -e
-          if [[ 0 -eq $rc && x"$revlist" -eq x ]]; then
-            tag=`git tag -l | sort -V | tail -n1`
-            major=`echo $tag | awk -F '.' '{ print $1 }'`
-            minor=`echo $tag | awk -F '.' '{ print $2 }'`
-            patch=`echo $tag | awk -F '.' '{ print $3 }'`
-            patch=$(( $patch + $patch % 2 + 1 ))
-            tag=$major.$minor.$patch
-            sed -ri "s#\\\"version(.*)#\\\"version\\\": \\\"$tag\\\",#" package.json
-          fi
-        '''.stripIndent())
-
-        withCredentials([gitUsernamePassword(credentialsId: 'KK-github-key', gitToolName: 'git-tool')]) {
-          sh(returnStdout: false, script: '''
-            set +e
-            git add package.json
-            git commit -m "update package version"
-            git push origin $BRANCH_NAME
-            set -e
-          '''.stripIndent())
-        }
-
-        sh(returnStdout: false, script: '''
-          set +e
           PATH=/usr/local/bin:$PATH:./node_modules/@quasar/app/bin command quasar
           rc=$?
           set -e
