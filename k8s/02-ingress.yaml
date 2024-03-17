@@ -16,9 +16,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - '*.www.hashrate-demo.npool.top'
+        - '*.npool.top'
         - www.hashrate-demo.npool.top
-      secretName: procyon-vip-tls
+      secretName: npool-top-tls
   rules:
     - host: www.hashrate-demo.npool.top
       http:

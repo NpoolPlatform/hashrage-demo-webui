@@ -75,7 +75,7 @@ pipeline {
       steps {
         sh(returnStdout: false, script: '''
           feature_name=`echo $BRANCH_NAME | awk -F '/' '{ print $2 }'`
-          docker build -t $DOCKER_REGISTRY/entropypool/procyon-webui-v2:$feature_name .
+          docker build -t $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:$feature_name .
         '''.stripIndent())
       }
     }
@@ -86,7 +86,7 @@ pipeline {
         expression { BRANCH_NAME == 'master' }
       }
       steps {
-        sh 'docker build -t $DOCKER_REGISTRY/entropypool/procyon-webui-v2:latest .'
+        sh 'docker build -t $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:latest .'
       }
     }
 
@@ -224,7 +224,7 @@ pipeline {
           fi
           PATH=/usr/local/bin:$PATH:./node_modules/@quasar/app/bin yarn install --registry https://registry.npm.taobao.org/
           PATH=/usr/local/bin:$PATH:./node_modules/@quasar/app/bin quasar build
-          docker build -t $DOCKER_REGISTRY/entropypool/procyon-webui-v2:$tag .
+          docker build -t $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:$tag .
         '''.stripIndent())
       }
     }
@@ -238,13 +238,13 @@ pipeline {
         sh(returnStdout: false, script: '''
           feature_name=`echo $BRANCH_NAME | awk -F '/' '{ print $2 }'`
           set +e
-          docker images | grep procyon-webui-v2 | grep $feature_name
+          docker images | grep hashrate-demo-webui | grep $feature_name
           rc=$?
           set -e
           if [ 0 -eq $rc ]; then
-            docker push $DOCKER_REGISTRY/entropypool/procyon-webui-v2:$feature_name
+            docker push $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:$feature_name
           fi
-          images=`docker images | grep entropypool | grep procyon-webui-v2 | grep none | awk '{ print $3 }'`
+          images=`docker images | grep entropypool | grep hashrate-demo-webui | grep none | awk '{ print $3 }'`
           for image in $images; do
             docker rmi $image -f
           done
@@ -259,13 +259,13 @@ pipeline {
       steps {
         sh(returnStdout: false, script: '''
           set +e
-          docker images | grep procyon-webui-v2 | grep latest
+          docker images | grep hashrate-demo-webui | grep latest
           rc=$?
           set -e
           if [ 0 -eq $rc ]; then
-            docker push $DOCKER_REGISTRY/entropypool/procyon-webui-v2:latest
+            docker push $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:latest
           fi
-          images=`docker images | grep entropypool | grep procyon-webui-v2 | grep none | awk '{ print $3 }'`
+          images=`docker images | grep entropypool | grep hashrate-demo-webui | grep none | awk '{ print $3 }'`
           for image in $images; do
             docker rmi $image -f
           done
@@ -282,11 +282,11 @@ pipeline {
           tag=`git tag -l | sort -V | tail -n1`
 
           set +e
-          docker images | grep procyon-webui-v2 | grep $tag
+          docker images | grep hashrate-demo-webui | grep $tag
           rc=$?
           set -e
           if [ 0 -eq $rc ]; then
-            docker push $DOCKER_REGISTRY/entropypool/procyon-webui-v2:$tag
+            docker push $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:$tag
           fi
         '''.stripIndent())
       }
@@ -308,11 +308,11 @@ pipeline {
           tag=$major.$minor.$patch
 
           set +e
-          docker images | grep procyon-webui-v2 | grep $tag
+          docker images | grep hashrate-demo-webui | grep $tag
           rc=$?
           set -e
           if [ 0 -eq $rc ]; then
-            docker push $DOCKER_REGISTRY/entropypool/procyon-webui-v2:$tag
+            docker push $DOCKER_REGISTRY/entropypool/hashrate-demo-webui:$tag
           fi
         '''.stripIndent())
       }
@@ -326,10 +326,8 @@ pipeline {
       steps {
         sh(returnStdout: false, script: '''
           feature_name=`echo $BRANCH_NAME | awk -F '/' '{ print $2 }'`
-          sed -i "s/procyon-webui-v2:latest/procyon-webui-v2:$feature_name/g" k8s/01-procyon-webui.yaml
-          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-procyon-webui.yaml
-          sed -i "s/procyon-vip/${CERT_NAME}/g" k8s/02-ingress.yaml
-          sed -i "s/procyon\\.vip/${ROOT_DOMAIN}/g" k8s/02-ingress.yaml
+          sed -i "s/hashrate-demo-webui:latest/hashrate-demo-webui:$feature_name/g" k8s/01-hashrate-demo-webui.yaml
+          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-hashrate-demo-webui.yaml
           kubectl apply -k k8s
         '''.stripIndent())
       }
@@ -343,9 +341,7 @@ pipeline {
       }
       steps {
         sh '''
-          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-procyon-webui.yaml
-          sed -i "s/procyon-vip/${CERT_NAME}/g" k8s/02-ingress.yaml
-          sed -i "s/procyon\\.vip/${ROOT_DOMAIN}/g" k8s/02-ingress.yaml
+          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-hashrate-demo-webui.yaml
           kubectl apply -k k8s
         '''
       }
@@ -363,11 +359,9 @@ pipeline {
 
           git reset --hard
           git checkout $tag
-          sed -i "s/procyon-webui-v2:latest/procyon-webui-v2:$tag/g" k8s/01-procyon-webui.yaml
-          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-procyon-webui.yaml
+          sed -i "s/hashrate-demo-webui:latest/hashrate-demo-webui:$tag/g" k8s/01-hashrate-demo-webui.yaml
+          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-hashrate-demo-webui.yaml
 
-          sed -i "s/procyon\\.vip/procyon\\.npool\\.top/g" k8s/02-ingress.yaml
-          sed -i "s/procyon-vip/procyon-npool-top/g" k8s/02-ingress.yaml
           kubectl apply -k k8s
         '''.stripIndent())
       }
@@ -390,8 +384,8 @@ pipeline {
 
           git reset --hard
           git checkout $tag
-          sed -i "s/procyon-webui-v2:latest/procyon-webui-v2:$tag/g" k8s/01-procyon-webui.yaml
-          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-procyon-webui.yaml
+          sed -i "s/hashrate-demo-webui:latest/hashrate-demo-webui:$tag/g" k8s/01-hashrate-demo-webui.yaml
+          sed -i "s/uhub.service.ucloud.cn/$DOCKER_REGISTRY/g" k8s/01-hashrate-demo-webui.yaml
           kubectl apply -k k8s
         '''.stripIndent())
       }
