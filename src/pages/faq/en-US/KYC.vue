@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon Platform - KYC</h2>
+      <h2>HashRate Demo Platform - KYC</h2>
 
       <div class='faq-content'>
         <div class='faq-content-nav'>

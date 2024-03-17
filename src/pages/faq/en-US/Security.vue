@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon Platform - Security</h2>
+      <h2>HashRate Demo Platform - Security</h2>
 
       <div class='faq-content'>
         <div class='faq-content-nav'>
@@ -54,12 +54,12 @@
           </h3>
 
           <p>
-            When a user attempts to withdraw cryptocurrency the operation is audited by the Procyon platform system.
+            When a user attempts to withdraw cryptocurrency the operation is audited by the HashRate Demo platform system.
             The system will audit the account information, KYC information, withdrawal address and other information to
             ensure the safety of the transaction. The system will ask the user to set up the withdrawal (receiving)
             address in advance and verify KYC information. If the withdrawal address is not in an address set by the
             user, the transaction will not be approved. In the case of many withdrawal operations in a short time users
-            must submit the transaction to be manually audited by the administrators of the Procyon platform.
+            must submit the transaction to be manually audited by the administrators of the HashRate Demo platform.
           </p>
 
           <h3 id='Abnormal Login Monitoring'>
@@ -69,7 +69,7 @@
           <p>
             The system will automatically verify if there is any abnormality in the login process. For example, if a
             user changes their usual browser or device, or attempts to login from a new location, etc. the system will
-            flag the attempt and notify the user. The Procyon platform will also restrict concurrent logins by allowing
+            flag the attempt and notify the user. The HashRate Demo platform will also restrict concurrent logins by allowing
             only one login at a time. In addition, all login sessions expire after 4 hours and users are automatically
             logged out. The system will ask the user to login to the account again to ensure the user’s identity.
           </p>
@@ -79,7 +79,7 @@
           </h3>
 
           <p>
-            The Procyon platform automatically checks and verifies each transaction. The system requires each
+            The HashRate Demo platform automatically checks and verifies each transaction. The system requires each
             transaction to match the complete user account information before the transaction can be completed. If a
             hacker attacks the platform API but is unable to obtain user information, the hacker will not be successful
             in carrying out a transaction using fraudulent user information.
@@ -100,7 +100,7 @@
           </h3>
 
           <p>
-            Procyon utilizes a private network in order to carry out transactions and other functions. The platform
+            HashRate Demo utilizes a private network in order to carry out transactions and other functions. The platform
             manages a list of access rights, allowing access only to devices/IPs in the list. The network connection to
             the transaction channel subsystem is unidirectional and does not accept external connections.
           </p>
@@ -121,7 +121,7 @@
           </h3>
 
           <p>
-            Procyon will specify a fixed amount of crypto assets above which they will be stored in an offline (not
+            HashRate Demo will specify a fixed amount of crypto assets above which they will be stored in an offline (not
             connected to the Internet) cold wallet. Transferring crypto assets from the cold wallet requires multiple
             layers of manual review, meaning hackers cannot access crypto assets via the Internet. The platform keeps
             only a small amount of crypto assets in the hot wallet that cover the typical daily transaction volume on
@@ -160,8 +160,8 @@
           </p>
 
           <p>
-            The Procyon technical team has extensive experience in cybersecurity. The above is only a brief summary of
-            the security measures that we have implemented on Procyon. Moreover, Procyon's technical team has been
+            The HashRate Demo technical team has extensive experience in cybersecurity. The above is only a brief summary of
+            the security measures that we have implemented on HashRate Demo. Moreover, HashRate Demo's technical team has been
             working in the field of technical security for more than five years, and in the field of software
             engineering for more than ten years, without any security incidents.
           </p>

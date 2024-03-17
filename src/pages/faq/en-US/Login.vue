@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon Platform - Login</h2>
+      <h2>HashRate Demo Platform - Login</h2>
       <div class='faq-content'>
         <div class='faq-content-nav'>
           <h3>Navigation</h3>
@@ -129,7 +129,7 @@
             What is an invitation code?
           </h3>
 
-          <p>An invitation code is sent to selected individuals and is required for account registration. If you do not have an invitation code you cannot make an account on Procyon Platform. Please do not contact us to request an invitation code.</p>
+          <p>An invitation code is sent to selected individuals and is required for account registration. If you do not have an invitation code you cannot make an account on HashRate Demo Platform. Please do not contact us to request an invitation code.</p>
 
           <h3 id='I have not received my verification code'>
             I have not received my verification code
@@ -143,7 +143,7 @@
             <li>(1) Check your spam folder.</li>
             <li>(2) Search your inbox using the following subject and address:</li>
             <ul>
-              <li><strong>Subject:</strong>【Procyon】Email認証コード</li>
+              <li><strong>Subject:</strong>【HashRate Demo】Email認証コード</li>
               <li><strong>Email Address: </strong>support@cryptomore.io</li>
             </ul>
           </ul>

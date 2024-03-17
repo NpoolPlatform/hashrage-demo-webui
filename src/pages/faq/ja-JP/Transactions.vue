@@ -9,16 +9,16 @@
 
           <ul class='faq-nav-links'>
             <li><a @click='scrollTo("送金先として外部取引所などのアドレスを登録する方法を教えて下さい")'>送金先として外部取引所などのアドレスを登録する方法を教えて下さい</a></li>
-            <li><a @click='scrollTo("送金先としてProcyonアカウントを登録する方法を教えて下さい")'>送金先としてProcyonアカウントを登録する方法を教えて下さい</a></li>
-            <li><a @click='scrollTo("マイニング報酬やProcyonウォレットの残高を、外部へ送金する方法を教えて下さい")'>マイニング報酬やProcyonウォレットの残高を、外部へ送金する方法を教えて下さい</a></li>
-            <li><a @click='scrollTo("Procyonアカウント間で送金する方法を教えて下さい")'>Procyonアカウント間で送金する方法を教えて下さい</a></li>
-            <li><a @click='scrollTo("Procyonウォレットへの入金方法を教えて下さい")'>Procyonウォレットへの入金方法を教えて下さい</a></li>
+            <li><a @click='scrollTo("送金先としてHashRate Demoアカウントを登録する方法を教えて下さい")'>送金先としてHashRate Demoアカウントを登録する方法を教えて下さい</a></li>
+            <li><a @click='scrollTo("マイニング報酬やHashRate Demoウォレットの残高を、外部へ送金する方法を教えて下さい")'>マイニング報酬やHashRate Demoウォレットの残高を、外部へ送金する方法を教えて下さい</a></li>
+            <li><a @click='scrollTo("HashRate Demoアカウント間で送金する方法を教えて下さい")'>HashRate Demoアカウント間で送金する方法を教えて下さい</a></li>
+            <li><a @click='scrollTo("HashRate Demoウォレットへの入金方法を教えて下さい")'>HashRate Demoウォレットへの入金方法を教えて下さい</a></li>
             <li><a @click='scrollTo("製品の購入方法を教えて下さい")'>製品の購入方法を教えて下さい</a></li>
             <li><a @click='scrollTo("出金の取り消しはできますか？")'>出金の取り消しはできますか？</a></li>
             <li><a @click='scrollTo("なぜ、KYCをしないと出金できないのですか？")'>なぜ、KYCをしないと出金できないのですか？</a></li>
             <li><a @click='scrollTo("誤った暗号資産銘柄／ブロックチェーンにて入金・出金をしてしまいました。")'>誤った暗号資産銘柄／ブロックチェーンにて入金・出金をしてしまいました。</a></li>
-            <li><a @click='scrollTo("Procyonウォレットから出金した際の、トランザクションIDの確認方法を教えてください")'>Procyonウォレットから出金した際の、トランザクションIDの確認方法を教えてください</a></li>
-            <li><a @click='scrollTo("Procyonウォレットへ入金しましたが指定のウォレットに届きません")'>Procyonウォレットへ入金しましたが指定のウォレットに届きません</a></li>
+            <li><a @click='scrollTo("HashRate Demoウォレットから出金した際の、トランザクションIDの確認方法を教えてください")'>HashRate Demoウォレットから出金した際の、トランザクションIDの確認方法を教えてください</a></li>
+            <li><a @click='scrollTo("HashRate Demoウォレットへ入金しましたが指定のウォレットに届きません")'>HashRate Demoウォレットへ入金しましたが指定のウォレットに届きません</a></li>
             <li><a @click='scrollTo("出金しましたが指定のウォレットに届きません")'>出金しましたが指定のウォレットに届きません</a></li>
             <li><a @click='scrollTo("マイニング報酬を日本円に換金はできないのですか？")'>マイニング報酬を日本円に換金はできないのですか？</a></li>
             <li><a @click='scrollTo("マイニング報酬は、どのタイミングで外部ウォレットに出金すればいいんですか？")'>マイニング報酬は、どのタイミングで外部ウォレットに出金すればいいんですか？</a></li>
@@ -40,7 +40,7 @@
               frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen
             />
           </div>
-          <p>本操作は、『外部への取引』に関する方法です。Procyonアカウント間での取引をされる際には、本FAQ直下をご確認ください。</p>
+          <p>本操作は、『外部への取引』に関する方法です。HashRate Demoアカウント間での取引をされる際には、本FAQ直下をご確認ください。</p>
 
           <ul>
             <li>(1) ログイン後、ウォレットページへアクセスします</li>
@@ -53,8 +53,8 @@
 
           <p><a href='https://drive.google.com/file/d/1TYpEcTBoqV38CsCcJ2knw2EImi7dpggJ/view?usp=share_link' target='_blank'>外部送金アドレスの登録方法をユーザーガイドで確認</a></p>
 
-          <h3 id='送金先としてProcyonアカウントを登録する方法を教えて下さい'>
-            送金先としてProcyonアカウントを登録する方法を教えて下さい
+          <h3 id='送金先としてHashRate Demoアカウントを登録する方法を教えて下さい'>
+            送金先としてHashRate Demoアカウントを登録する方法を教えて下さい
           </h3>
 
           <div class='video-box'>
@@ -64,21 +64,21 @@
             />
           </div>
 
-          <p>本操作は、『Procyonアカウント間の取引』に関する方法です。外部への取引をされる際には、本FAQ直上をご確認ください。</p>
+          <p>本操作は、『HashRate Demoアカウント間の取引』に関する方法です。外部への取引をされる際には、本FAQ直上をご確認ください。</p>
 
           <ul>
             <li>(1) ログイン後、ウォレットページへアクセスします</li>
-            <li>(2) ウォレットページ下部の「PROCYONアカウント間での送金アドレス」までスクロールください</li>
+            <li>(2) ウォレットページ下部の「HashRate Demoアカウント間での送金アドレス」までスクロールください</li>
             <li>(3) 右手にある『新規の送金先アドレスを登録』を押下</li>
-            <li>(4) 『ProcyonアカウントID』へ送金希望の方のProcyonへ登録しているメールアドレスをご入力ください</li>
+            <li>(4) 『HashRate DemoアカウントID』へ送金希望の方のHashRate Demoへ登録しているメールアドレスをご入力ください</li>
             <li>(5) 下部のオレンジ色のボタンを押下</li>
             <li>(6) 認証コードをご入力ください</li>
           </ul>
 
-          <p><a href='https://drive.google.com/file/d/1AP69mn8nMWMtJkWgOUTZcOT0UrXp1Vgz/view?usp=share_link' target='_blank'>Procyonアカウント間の送金アドレス登録方法をユーザーガイドで確認</a></p>
+          <p><a href='https://drive.google.com/file/d/1AP69mn8nMWMtJkWgOUTZcOT0UrXp1Vgz/view?usp=share_link' target='_blank'>HashRate Demoアカウント間の送金アドレス登録方法をユーザーガイドで確認</a></p>
 
-          <h3 id='マイニング報酬やProcyonウォレットの残高を、外部へ送金する方法を教えて下さい'>
-            マイニング報酬やProcyonウォレットの残高を、外部へ送金する方法を教えて下さい
+          <h3 id='マイニング報酬やHashRate Demoウォレットの残高を、外部へ送金する方法を教えて下さい'>
+            マイニング報酬やHashRate Demoウォレットの残高を、外部へ送金する方法を教えて下さい
           </h3>
 
           <div class='video-box'>
@@ -104,8 +104,8 @@
 
           <p><a href='https://drive.google.com/file/d/1TYpEcTBoqV38CsCcJ2knw2EImi7dpggJ/view?usp=share_link' target='_blank'>外部ウォレット等への送金方法をユーザーガイドで確認</a></p>
 
-          <h3 id='Procyonアカウント間で送金する方法を教えて下さい'>
-            Procyonアカウント間で送金する方法を教えて下さい
+          <h3 id='HashRate Demoアカウント間で送金する方法を教えて下さい'>
+            HashRate Demoアカウント間で送金する方法を教えて下さい
           </h3>
 
           <div class='video-box'>
@@ -122,17 +122,17 @@
             <li>(4) 表示がされるポップアップをご確認いただき、問題がなければオレンジ色のボタンを押下</li>
             <li>(5) 遷移した送金画面にて「送金額」「送金先の選択」を入力します</li>
             <li>(5-1) 「送金額」へ希望の金額を入力</li>
-            <li>(5-2) 「送金先の選択」にて『Procyonアカウント間での送金』を選択</li>
+            <li>(5-2) 「送金先の選択」にて『HashRate Demoアカウント間での送金』を選択</li>
             <li>(5-3) 「送金先アドレスの選択」にて希望のアドレスを選択</li>
             <li>※送金手数料が差し引かれた『取引手数料を差し引いた後の送金額』および『送金先の選択』にまちがいがないかご注意ください</li>
             <li>(6) 画面中段のオレンジ色の『送金』ボタンを押下</li>
             <li>(7) 認証コードをご入力および認証をお願いいたします</li>
           </ul>
 
-          <p><a href='https://drive.google.com/file/d/1AP69mn8nMWMtJkWgOUTZcOT0UrXp1Vgz/view?usp=share_link' target='_blank'>Procyonアカウント間での送金方法ユーザーガイドで確認</a></p>
+          <p><a href='https://drive.google.com/file/d/1AP69mn8nMWMtJkWgOUTZcOT0UrXp1Vgz/view?usp=share_link' target='_blank'>HashRate Demoアカウント間での送金方法ユーザーガイドで確認</a></p>
 
-          <h3 id='Procyonウォレットへの入金方法を教えて下さい'>
-            Procyonウォレットへの入金方法を教えて下さい
+          <h3 id='HashRate Demoウォレットへの入金方法を教えて下さい'>
+            HashRate Demoウォレットへの入金方法を教えて下さい
           </h3>
 
           <div class='video-box'>
@@ -149,7 +149,7 @@
             <li>(4) 表示がされるポップアップに記載のあるアドレスへお使いの取引所等から送金ください</li>
           </ul>
 
-          <p><a href='https://drive.google.com/file/d/1hXt-5S19etkjoyh1EqVSFySLt6ME-Knc/view?usp=share_link' target='_blank'>Procyonウォレットへの入金方法をユーザーガイドで確認</a></p>
+          <p><a href='https://drive.google.com/file/d/1hXt-5S19etkjoyh1EqVSFySLt6ME-Knc/view?usp=share_link' target='_blank'>HashRate Demoウォレットへの入金方法をユーザーガイドで確認</a></p>
 
           <h4>※誤った暗号資産やブロックチェーンの選択にご注意ください。誤った送金先へ送金をした場合、送金した資産は失われます</h4>
 
@@ -165,7 +165,7 @@
           </div>
 
           <ul>
-            <li>(1) ログイン後、Procyonウォレットへ決済希望の暗号資産をご入金ください</li>
+            <li>(1) ログイン後、HashRate Demoウォレットへ決済希望の暗号資産をご入金ください</li>
             <li>(2) 入金後、製品購入ページへアクセスください</li>
             <li>(3) 製品購入ページにて、決済希望暗号資産および数量を選択ください</li>
             <li>(4) 選択後、「購入」ボタンを押下</li>
@@ -184,7 +184,7 @@
             なぜ、KYCをしないと出金できないのですか？
           </h3>
 
-          <p>KYCを行うことで不正利用を防止し、そのリスクからお客様をお守りしアカウント保護をしております。また、暗号資産の業界において通例となっています。Procyonのプラットフォームは、セキュリティ体制を強化することで不正利用を未然に防ぎ、お客様へ安全性の高いサービスを提供します。</p>
+          <p>KYCを行うことで不正利用を防止し、そのリスクからお客様をお守りしアカウント保護をしております。また、暗号資産の業界において通例となっています。HashRate Demoのプラットフォームは、セキュリティ体制を強化することで不正利用を未然に防ぎ、お客様へ安全性の高いサービスを提供します。</p>
 
           <h3 id='誤った暗号資産銘柄／ブロックチェーンにて入金・出金をしてしまいました。'>
             誤った暗号資産銘柄／ブロックチェーンにて入金・出金をしてしまいました。
@@ -192,8 +192,8 @@
 
           <p>恐れ入りますが、誤った入金先や出金先を指定した際の資金は、ブロックチェーンの仕組み上消失いたします。</p>
 
-          <h3 id='Procyonウォレットから出金した際の、トランザクションIDの確認方法を教えてください'>
-            Procyonウォレットから出金した際の、トランザクションIDの確認方法を教えてください
+          <h3 id='HashRate Demoウォレットから出金した際の、トランザクションIDの確認方法を教えてください'>
+            HashRate Demoウォレットから出金した際の、トランザクションIDの確認方法を教えてください
           </h3>
 
           <p>お手数ではございますが、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
@@ -206,8 +206,8 @@
             <li>送金先ウォレットアドレス</li>
           </ul>
 
-          <h3 id='Procyonウォレットへ入金しましたが指定のウォレットに届きません'>
-            Procyonウォレットへ入金しましたが指定のウォレットに届きません
+          <h3 id='HashRate Demoウォレットへ入金しましたが指定のウォレットに届きません'>
+            HashRate Demoウォレットへ入金しましたが指定のウォレットに届きません
           </h3>
 
           <p>お手数ではございますが、<a href='mailto:support@cryptomore.io'>support@cryptomore.io</a>まで以下情報とともにご連絡をお願いいたします。</p>
@@ -245,9 +245,9 @@
             マイニング報酬は、どのタイミングで外部ウォレットに出金すればいいんですか？
           </h3>
 
-          <p>出金のタイミングについては、Procyonからアドバイス等の対応はできかねてしまいます。</p>
+          <p>出金のタイミングについては、HashRate Demoからアドバイス等の対応はできかねてしまいます。</p>
 
-          <p>Procyonのプラットフォームのダッシュボードにマイニング報酬が着金し対象トークンの出金機能が実装されていましたら、外部ウォレット等へご出金いただけます。</p>
+          <p>HashRate Demoのプラットフォームのダッシュボードにマイニング報酬が着金し対象トークンの出金機能が実装されていましたら、外部ウォレット等へご出金いただけます。</p>
 
           <h3 id='出金して何をすればいいのですか？'>
             出金して何をすればいいのですか？

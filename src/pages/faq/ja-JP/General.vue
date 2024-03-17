@@ -1,15 +1,15 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon プラットフォーム：総合案内</h2>
+      <h2>HashRate Demo プラットフォーム：総合案内</h2>
 
       <div class='faq-content'>
         <div class='faq-content-nav'>
           <h3>目次</h3>
 
           <ul class='faq-nav-links'>
-            <li><a @click='scrollTo("Procyon.vipへ新規登録をしたいのですが、どうすればいいですか？")'>Procyon.vipへ新規登録をしたいのですが、どうすればいいですか？</a></li>
-            <li><a @click='scrollTo("Procyonはスマホアプリもありますか？")'>Procyonはスマホアプリもありますか？</a></li>
+            <li><a @click='scrollTo("HashRate Demo.vipへ新規登録をしたいのですが、どうすればいいですか？")'>HashRate Demo.vipへ新規登録をしたいのですが、どうすればいいですか？</a></li>
+            <li><a @click='scrollTo("HashRate Demoはスマホアプリもありますか？")'>HashRate Demoはスマホアプリもありますか？</a></li>
             <li><a @click='scrollTo("ブログの確認方法")'>ブログの確認方法</a></li>
           </ul>
 
@@ -17,18 +17,18 @@
         </div>
 
         <div class='faq-content-main'>
-          <h3 id='Procyon.vipへ新規登録をしたいのですが、どうすればいいですか？'>
-            Procyon.vipへ新規登録をしたいのですが、どうすればいいですか？
+          <h3 id='HashRate Demo.vipへ新規登録をしたいのですが、どうすればいいですか？'>
+            HashRate Demo.vipへ新規登録をしたいのですが、どうすればいいですか？
           </h3>
 
-          <p>Procyonをお知りになったきっかけの紹介者様からアカウント登録リンクのお受け取りください。</p>
+          <p>HashRate Demoをお知りになったきっかけの紹介者様からアカウント登録リンクのお受け取りください。</p>
 
           <p>紹介者様が登録リンクをお持ちでない場合、カスタマーサポートまでお問い合わせのほどお願い申し上げます。</p>
 
-          <p>カスタマーサポート:<a href='mailto:support@procyon.vip'>support@procyon.vip</a></p>
+          <p>カスタマーサポート:<a href='mailto:support@HashRate Demo.vip'>support@HashRate Demo.vip</a></p>
 
-          <h3 id='Procyonはスマホアプリもありますか？'>
-            Procyonはスマホアプリもありますか？
+          <h3 id='HashRate Demoはスマホアプリもありますか？'>
+            HashRate Demoはスマホアプリもありますか？
           </h3>
 
           <p>2022年10月現在、ブラウザベースのウェブサイト（スマホからも閲覧可能）のみで展開しています。</p>

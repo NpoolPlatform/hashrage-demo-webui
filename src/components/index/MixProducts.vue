@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <div class='columns-2 highlight'>
+    <div v-if='false' class='columns-2 highlight'>
       <div class='column-2'>
         <h1 v-html='$t("MSG_DEMO_PROCYON_ACADEMY_TITLE")' />
         <h2 v-html='$t("MSG_DEMO_PROCYON_ACADEMY_SUB_TITLE")' />

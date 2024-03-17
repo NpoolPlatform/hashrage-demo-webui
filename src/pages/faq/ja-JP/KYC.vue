@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon プラットフォーム：KYC (本人確認)</h2>
+      <h2>HashRate Demo プラットフォーム：KYC (本人確認)</h2>
 
       <div class='faq-content'>
         <div class='faq-content-nav'>

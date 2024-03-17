@@ -10,7 +10,7 @@
             <li><a @click='scrollTo("Spacemesh mining")'>Spacemesh mining</a></li>
             <li><a @click='scrollTo("About Spacemesh")'>About Spacemesh</a></li>
             <li><a @click='scrollTo("Spacemesh technology (DAG structure)")'>Spacemesh technology (DAG structure)</a></li>
-            <li><a @click='scrollTo("Why did www.hashrate-demo.npool.top choose Spacemesh?")'>Why did procyon choose Spacemesh?</a></li>
+            <li><a @click='scrollTo("Why did www.hashrate-demo.npool.top choose Spacemesh?")'>Why did HashRate Demo choose Spacemesh?</a></li>
           </ul>
 
           <div class='hr' />
@@ -67,8 +67,8 @@
 
           <p>Spacemesh is a decentralized platform based on a blockmesh structure using the Proof of SpaceTime (PoST) protocol. Instead of blocks being generated one at a time, Spacemesh miners generate multiple blocks in parallel and they can all be accepted as valid blocks creating a mesh structure. It is one of the DAG (Directed Acyclic Graph) structures that is gaining recognition as an alternative solution to the problems of blockchain in distributed ledger technology. It is also known as the most decentralized and fair cryptocurrency network in the world.</p>
 
-          <h3 id='Why did procyon choose Spacemesh?'>
-            Why did procyon choose Spacemesh?
+          <h3 id='Why did HashRate Demo choose Spacemesh?'>
+            Why did HashRate Demo choose Spacemesh?
           </h3>
 
           <p>In terms of VC investments, Spacemesh has more support than Chia, despite the fact that the two projects are considered very similar.</p>

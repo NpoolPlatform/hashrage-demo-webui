@@ -1,7 +1,7 @@
 <template>
   <Page>
     <template #body>
-      <h2>Procyon プラットフォーム：ログイン</h2>
+      <h2>HashRate Demo プラットフォーム：ログイン</h2>
       <div class='faq-content'>
         <div class='faq-content-nav'>
           <h3>目次</h3>
@@ -138,7 +138,7 @@
             招待コードとはなんですか？
           </h3>
 
-          <p>招待コードは、特定のユーザーに付与されアカウント登録の際の必須項目です。招待コードをお持ちでない方は、Procyon Platformにてアカウント登録を行うことができません。招待コードに関する弊社へのお問い合わせは受け付けておりませんので、あらかじめご了承くださいませ。</p>
+          <p>招待コードは、特定のユーザーに付与されアカウント登録の際の必須項目です。招待コードをお持ちでない方は、HashRate Demo Platformにてアカウント登録を行うことができません。招待コードに関する弊社へのお問い合わせは受け付けておりませんので、あらかじめご了承くださいませ。</p>
 
           <h3 id='認証コードが届きません'>
             認証コードが届きません
@@ -152,7 +152,7 @@
             <li>(1)迷惑メールフォルダの確認をする</li>
             <li>(2)以下、件名および送信元アドレスでメールボックス内の検索をおこなう</li>
             <ul>
-              <li><strong>件名：</strong>【Procyon】Email認証コード</li>
+              <li><strong>件名：</strong>【HashRate Demo】Email認証コード</li>
               <li><strong>送信元メール：</strong>support@cryptomore.io</li>
             </ul>
           </ul>

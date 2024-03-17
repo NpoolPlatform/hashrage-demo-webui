@@ -9,8 +9,8 @@
 
           <ul class='faq-nav-links'>
             <li><a @click='scrollTo("How can I to register a new account with www.hashrate-demo.npool.top?")'>How can I to register a new account with www.hashrate-demo.npool.top?</a></li>
-            <li><a @click='scrollTo("Does Procyon have a mobile app?")'>Does Procyon have a mobile app?</a></li>
-            <li><a @click='scrollTo("About Procyon Blog")'>About Procyon Blog</a></li>
+            <li><a @click='scrollTo("Does HashRate Demo have a mobile app?")'>Does HashRate Demo have a mobile app?</a></li>
+            <li><a @click='scrollTo("About HashRate Demo Blog")'>About HashRate Demo Blog</a></li>
           </ul>
 
           <div class='hr' />
@@ -21,18 +21,18 @@
             How can I to register a new account with www.hashrate-demo.npool.top?
           </h3>
 
-          <p>Please receive your account registration link from the person who referred you to Procyon. If your referral does not have a registration link, please contact our Customer Support team for assistance.</p>
+          <p>Please receive your account registration link from the person who referred you to HashRate Demo. If your referral does not have a registration link, please contact our Customer Support team for assistance.</p>
 
           <p>Customer Support: <a href='mailto:support@cryptomore.io'>support@cryptomore.io</a></p>
 
-          <h3 id='Does Procyon have a mobile app?'>
-            Does Procyon have a mobile app?
+          <h3 id='Does HashRate Demo have a mobile app?'>
+            Does HashRate Demo have a mobile app?
           </h3>
 
           <p>We plan to launch an official mobile app for our platform in the future, but will first launch on our browser-based website.</p>
 
-          <h3 id='About Procyon Blog'>
-            About Procyon Blog
+          <h3 id='About HashRate Demo Blog'>
+            About HashRate Demo Blog
           </h3>
 
           <ul>

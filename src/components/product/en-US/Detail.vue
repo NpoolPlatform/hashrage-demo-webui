@@ -112,7 +112,7 @@
 
     <h3>First Batch Mining and its Advantages</h3>
 
-    <p>In addition to filtering for great projects, Procyon selects for early opportunities to generate the best value for our users. Therefore, we prioritize first batch mining:</p>
+    <p>In addition to filtering for great projects, HashRate Demo selects for early opportunities to generate the best value for our users. Therefore, we prioritize first batch mining:</p>
 
     <ul>
       <li>Timing is important: mining is most profitable from the first day of mainnet launch.</li>

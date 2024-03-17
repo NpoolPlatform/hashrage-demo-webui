@@ -10,7 +10,7 @@
             <li><a @click='scrollTo("Aleo Mining")'>Aleo Mining</a></li>
             <li><a @click='scrollTo("About Aleo")'>About Aleo</a></li>
             <li><a @click='scrollTo("Aleo Technology")'>Aleo Technology</a></li>
-            <li><a @click='scrollTo("Why did Procyon choose Aleo?")'>Why did Procyon choose Aleo?</a></li>
+            <li><a @click='scrollTo("Why did ProHashRate Democyon choose Aleo?")'>Why did HashRate Demo choose Aleo?</a></li>
             <li><a @click='scrollTo("Can anyone purchase Aleo Mining?")'>Can anyone purchase Aleo Mining?</a></li>
             <li><a @click='scrollTo("When is the deadline to purchase Aleo Mining?")'>When is the deadline to purchase Aleo Mining?</a></li>
             <li><a @click='scrollTo("Is the mainnet launch date confirmed?")'>Is the mainnet launch date confirmed?</a></li>
@@ -90,8 +90,8 @@
 
           <p>Aleo achieves privacy by leveraging decentralized systems and zero-knowledge cryptography to protect user data on the web. Using zero-knowledge cryptography, Aleo moves smart contract execution off-chain to enable a diverse range of decentralized applications that are both entirely private and can scale to tens of thousands of transactions per second. Built on an open, public blockchain, Aleo brings all the flexibility of Ethereum but with a more scalable architecture in which miners don’t need to re-run every transaction, but simply verify their correctness.</p>
 
-          <h3 id='Why did Procyon choose Aleo?'>
-            Why did Procyon choose Aleo?
+          <h3 id='Why did HashRate Demo choose Aleo?'>
+            Why did HashRate Demo choose Aleo?
           </h3>
 
           <p>Aleo raised approximately $228 million in just two funding rounds, bringing its pre-listing valuation to approximately $1.45 billion. The funding stands as the largest fundraising round ever in the zero-knowledge industry.</p>
@@ -154,7 +154,7 @@
             How to join the Aleo Prover Incentive Program?
           </h3>
 
-          <p>If you purchase or have purchased our Procyon Aleo first-batch mining product before January 26th, 2023 at 23:59 UTC, or or until all 7.5 million credits have been mined, you will receive additional ROI for your investment.</p>
+          <p>If you purchase or have purchased our HashRate Demo Aleo first-batch mining product before January 26th, 2023 at 23:59 UTC, or or until all 7.5 million credits have been mined, you will receive additional ROI for your investment.</p>
 
           <h3 id='How many testnet credits can I receive from the Aleo Prover Incentive Program? '>
             How many testnet credits can I receive from the Aleo Prover Incentive Program?

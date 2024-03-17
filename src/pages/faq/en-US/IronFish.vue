@@ -90,7 +90,7 @@
 
           <p>a16z felt so strongly about their investment that they wrote an <a href='https://a16z.com/2021/11/30/investing-in-iron-fish/' target='_blank'>article on November 30, 2021 highlighting the great aspects of Iron Fish and why they believe it will succeed</a>.</p>
 
-          <p>While Iron Fish does have technology that competes with Procyon’s other offering of Aleo, we are very bullish about zero knowledge for Web3.</p>
+          <p>While Iron Fish does have technology that competes with HashRate Demo’s other offering of Aleo, we are very bullish about zero knowledge for Web3.</p>
 
           <p>Thus, we want to bring a diverse portfolio of products to our community. The expectation is for zero knowledge to be a major part of blockchain projects from now into the future.</p>
 
