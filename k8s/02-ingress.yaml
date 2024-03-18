@@ -16,18 +16,18 @@ metadata:
 spec:
   tls:
     - hosts:
-        - '*.hashrate-demo.npool.top'
-        - www.hashrate-demo.npool.top
-      secretName: hashrate-demo-npool-top-tls
+        - '*.epool.tech'
+        - epool.tech
+      secretName: epool-tech-tls
   rules:
-    - host: www.hashrate-demo.npool.top
+    - host: www.epool.tech
       http:
         paths:
           - path: /
             backend:
               serviceName: hashrate-demo-webui
               servicePort: 80
-    - host: www.hashrate-demo.npool.top
+    - host: epool.tech
       http:
         paths:
           - path: /

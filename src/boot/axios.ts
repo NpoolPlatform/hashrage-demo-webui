@@ -22,6 +22,9 @@ if (window.location.hostname.startsWith('www.')) {
 if (window.location.hostname.includes('.npool.top')) {
   baseURL = window.location.protocol + '//api.npool.top' + (window.location.port.length ? ':' + window.location.port : '') + '/api'
 }
+if (window.location.hostname.includes('.epool.tech')) {
+  baseURL = window.location.protocol + '//api.epool.tech' + (window.location.port.length ? ':' + window.location.port : '') + '/api'
+}
 const api = createAPI(baseURL, AppID) as AxiosInstance
 
 // define common response handle
