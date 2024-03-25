@@ -19,7 +19,7 @@ import copy from 'copy-to-clipboard'
 import { notify, user } from 'src/npoolstore'
 
 const logined = user.useLocalUserStore()
-const inviteLink = computed(() => 'https://epool.tech:20402:20402/invitation?code=' + (logined.User?.InvitationCode))
+const inviteLink = computed(() => 'https://epool.tech:20402/invitation?code=' + (logined.User?.InvitationCode))
 const notification = notify.useNotificationStore()
 
 function onCopyCodeClick () {
