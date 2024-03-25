@@ -19,9 +19,9 @@
             <li><a @click='scrollTo("How to join the Aleo Prover Incentive Program? ")'>How to join the Aleo Prover Incentive Program? </a></li>
             <li><a @click='scrollTo("How many testnet credits can I receive from the Aleo Prover Incentive Program? ")'>How many testnet credits can I receive from the Aleo Prover Incentive Program? </a></li>
             <li><a @click='scrollTo("How much hash power does one unit of Aleo First Batch Mining provide?")'>How much hash power does one unit of Aleo First Batch Mining provide?</a></li>
-            <li><a @click='scrollTo("Can I see my mining rewards on www.hashrate-demo.npool.top starting the day after mining starts?")'>Can I see my mining rewards on www.hashrate-demo.npool.top starting the day after mining starts?</a></li>
+            <li><a @click='scrollTo("Can I see my mining rewards on www.epool.tech:20402 starting the day after mining starts?")'>Can I see my mining rewards on www.epool.tech:20402 starting the day after mining starts?</a></li>
             <li><a @click='scrollTo("Will the mining machine stop functioning due to power outages or other problems?")'>Will the mining machine stop functioning due to power outages or other problems?</a></li>
-            <li><a @click='scrollTo("Can I see my testnet mining rewards on www.hashrate-demo.npool.top?")'>Can I see my testnet mining rewards on www.hashrate-demo.npool.top?</a></li>
+            <li><a @click='scrollTo("Can I see my testnet mining rewards on www.epool.tech:20402?")'>Can I see my testnet mining rewards on www.epool.tech:20402?</a></li>
             <li><a @click='scrollTo("How much test-net reward can I earn?")'>How much test-net reward can I earn?</a></li>
             <li><a @click='scrollTo("When can I withdraw my mining rewards?")'>When can I withdraw my mining rewards?</a></li>
             <li><a @click='scrollTo("Are there withdrawal limits for mining rewards and balances?")'>Are there withdrawal limits for mining rewards and balances?</a></li>
@@ -172,8 +172,8 @@
 
           <p>Our mining pool partner is in the top 5 in Aleo's testnet ranking, where many well-known mining pools are competing. (as of January 26, 2023).</p>
 
-          <h3 id='Can I see my mining rewards on www.hashrate-demo.npool.top starting the day after mining starts?'>
-            Can I see my mining rewards on www.hashrate-demo.npool.top starting the day after mining starts?
+          <h3 id='Can I see my mining rewards on www.epool.tech:20402 starting the day after mining starts?'>
+            Can I see my mining rewards on www.epool.tech:20402 starting the day after mining starts?
           </h3>
 
           <p>Yes, you can check it on the dashboard. <a target='_blank' @click='router.push({ path: "/dashboard" })'>Click here to access your dashboard</a>.</p>
@@ -186,11 +186,11 @@
 
           <p>We will also notify you in the event of an actual power outage.</p>
 
-          <h3 id='Can I see my testnet mining rewards on www.hashrate-demo.npool.top?'>
-            Can I see my testnet mining rewards on www.hashrate-demo.npool.top?
+          <h3 id='Can I see my testnet mining rewards on www.epool.tech:20402?'>
+            Can I see my testnet mining rewards on www.epool.tech:20402?
           </h3>
 
-          <p>Yes, once the testnet incentive program is over and the testnet rewards are ready for calculation,  it can be viewed on the www.hashrate-demo.npool.top Mining Dashboard.</p>
+          <p>Yes, once the testnet incentive program is over and the testnet rewards are ready for calculation,  it can be viewed on the www.epool.tech:20402 Mining Dashboard.</p>
 
           <p>For testnet rewards that have not yet completed the testnet incentive program, we will update all users once Aleo officials announces further details.</p>
 

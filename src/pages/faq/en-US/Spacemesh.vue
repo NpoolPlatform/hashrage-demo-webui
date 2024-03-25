@@ -10,7 +10,7 @@
             <li><a @click='scrollTo("Spacemesh mining")'>Spacemesh mining</a></li>
             <li><a @click='scrollTo("About Spacemesh")'>About Spacemesh</a></li>
             <li><a @click='scrollTo("Spacemesh technology (DAG structure)")'>Spacemesh technology (DAG structure)</a></li>
-            <li><a @click='scrollTo("Why did www.hashrate-demo.npool.top choose Spacemesh?")'>Why did HashRate Demo choose Spacemesh?</a></li>
+            <li><a @click='scrollTo("Why did www.epool.tech:20402 choose Spacemesh?")'>Why did HashRate Demo choose Spacemesh?</a></li>
           </ul>
 
           <div class='hr' />

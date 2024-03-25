@@ -57,7 +57,7 @@
             />
           </div>
 
-          <p><strong>Users are asked to change their password when first loggin in to www.hashrate-demo.npool.top.</strong> From the second time, you will be able to login normally.</p>
+          <p><strong>Users are asked to change their password when first loggin in to www.epool.tech:20402.</strong> From the second time, you will be able to login normally.</p>
 
           <h4>Reset Your Password</h4>
           <ul>

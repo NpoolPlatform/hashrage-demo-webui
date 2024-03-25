@@ -45,7 +45,7 @@
 
     <h2>3. 商標およびドメイン名に関する声明</h2>
 
-    <p>HashRate Demo LTD.のウェブサイト（www.hashrate-demo.npool.top）を使用しているすべてのHashRate Demo LTD.の図案及び文字の商標は、中国または他の国におけるHashRate Demo LTD.の登録商標または合法的に使用された商標であり、HashRate Demo LTD.から書面による明確な許可を得ていない限り、いかなる単位または個人もいかなる方式であっても上記の商標を使用してはいけません。HashRate Demo LTD.のウェブサイトのドメイン名はHashRate Demo LTD.の所有です。HashRate Demo LTD.の書面による許可を受けていない限り、いかなる単位または個人も使用してはいけません。</p>
+    <p>HashRate Demo LTD.のウェブサイト（www.epool.tech:20402）を使用しているすべてのHashRate Demo LTD.の図案及び文字の商標は、中国または他の国におけるHashRate Demo LTD.の登録商標または合法的に使用された商標であり、HashRate Demo LTD.から書面による明確な許可を得ていない限り、いかなる単位または個人もいかなる方式であっても上記の商標を使用してはいけません。HashRate Demo LTD.のウェブサイトのドメイン名はHashRate Demo LTD.の所有です。HashRate Demo LTD.の書面による許可を受けていない限り、いかなる単位または個人も使用してはいけません。</p>
 
     <h2>4. ウェブサイトへのリンク</h2>
 

@@ -45,7 +45,7 @@
 
     <h2>3. Trademark and Domain Name Declarations</h2>
 
-    <p>HashRate Demo LTD. website (www.hashrate-demo.npool.top) are either registered trademarks or legally licensed trademarks of HashRate Demo LTD. in the Republic of Singapore or other countries and may not be used in any manner without the written authorization of HashRate Demo LTD. The domain name of the website is owned by HashRate Demo LTD. Any use by any entity or individual is prohibited without written authorization from HashRate Demo LTD.</p>
+    <p>HashRate Demo LTD. website (www.epool.tech:20402) are either registered trademarks or legally licensed trademarks of HashRate Demo LTD. in the Republic of Singapore or other countries and may not be used in any manner without the written authorization of HashRate Demo LTD. The domain name of the website is owned by HashRate Demo LTD. Any use by any entity or individual is prohibited without written authorization from HashRate Demo LTD.</p>
 
     <h2>4. Website links to</h2>
 

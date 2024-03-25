@@ -38,7 +38,7 @@
         </tbody>
       </table>
       <p class='info-table-note'>
-        *Withdrawals of mining rewards will be available from April 10th at the latest, giving us time to implement the Iron Fish blockchain on the www.hashrate-demo.npool.top platform.
+        *Withdrawals of mining rewards will be available from April 10th at the latest, giving us time to implement the Iron Fish blockchain on the www.epool.tech:20402 platform.
       </p>
     </div>
 

@@ -8,7 +8,7 @@
           <h3>Navigation</h3>
 
           <ul class='faq-nav-links'>
-            <li><a @click='scrollTo("How can I to register a new account with www.hashrate-demo.npool.top?")'>How can I to register a new account with www.hashrate-demo.npool.top?</a></li>
+            <li><a @click='scrollTo("How can I to register a new account with www.epool.tech:20402?")'>How can I to register a new account with www.epool.tech:20402?</a></li>
             <li><a @click='scrollTo("Does HashRate Demo have a mobile app?")'>Does HashRate Demo have a mobile app?</a></li>
             <li><a @click='scrollTo("About HashRate Demo Blog")'>About HashRate Demo Blog</a></li>
           </ul>
@@ -17,8 +17,8 @@
         </div>
 
         <div class='faq-content-main'>
-          <h3 id='How can I to register a new account with www.hashrate-demo.npool.top?'>
-            How can I to register a new account with www.hashrate-demo.npool.top?
+          <h3 id='How can I to register a new account with www.epool.tech:20402?'>
+            How can I to register a new account with www.epool.tech:20402?
           </h3>
 
           <p>Please receive your account registration link from the person who referred you to HashRate Demo. If your referral does not have a registration link, please contact our Customer Support team for assistance.</p>
