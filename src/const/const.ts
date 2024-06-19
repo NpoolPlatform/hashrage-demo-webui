@@ -1,6 +1,6 @@
 const LogoText = 'www.epool.tech:20402'
 
-const AppID = 'ff2c5d50-be56-413e-aba5-9c7ad888a769'
+const AppID = 'e203d5ec-2ded-11ef-86a0-abe478da2125'
 const ThrottleSeconds = 10
 const TypesenseApiKey = 'c5deba40-4214-469e-ba6b-5583e9e53e6b'
 
